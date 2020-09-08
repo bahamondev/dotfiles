@@ -18,6 +18,5 @@ source "$DOTFILES_PATH/shell/init.sh"
 fpath=("$DOTLY_PATH/shell/zsh/themes" "$DOTLY_PATH/shell/zsh/completions" $fpath)
 
 autoload -Uz promptinit && promptinit
-prompt codelytv
 
 source "$DOTLY_PATH/shell/zsh/bindings/reverse_search.zsh"
