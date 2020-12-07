@@ -6,7 +6,8 @@ zmodule zimfw/input
 zmodule zsh-users/zsh-autosuggestions
 zmodule zsh-users/zsh-syntax-highlighting
 zmodule zimfw/completion
-zmodule zimfw/eriner
+zmodule https://github.com/agkozak/zsh-z
+zmodule romkatv/powerlevel10k
 
 ztermtitle='%~'
 
