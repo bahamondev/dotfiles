@@ -12,3 +12,7 @@
     ~/.zlogin: shell/zsh/.zlogin
     ~/.zshenv: shell/zsh/.zshenv
     ~/.zshrc: shell/zsh/.zshrc
+    ~/.gitignore: git/.gitignore
+
+- create:
+      - ~/.z
