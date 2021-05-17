@@ -13,6 +13,8 @@
     ~/.zshenv: shell/zsh/.zshenv
     ~/.zshrc: shell/zsh/.zshrc
     ~/.gitignore: git/.gitignore
+    ~/.alacritty.yml: shell/alacritty/.alacritty.yml
+    ~/.tmux.conf: shell/tmux/.tmux.conf
 
 - create:
       - ~/.z
