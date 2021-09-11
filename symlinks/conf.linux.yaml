@@ -7,4 +7,4 @@
 
 - link:
     ~/.dotly: os/linux/.dotly
-    ~/.vimrc: os/linux/.vimrc
+    ~/.vimrc: editors/vim/.vimrc
