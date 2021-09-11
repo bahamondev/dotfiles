@@ -14,6 +14,7 @@
     ~/.zshrc: shell/zsh/.zshrc
     ~/.gitignore: git/.gitignore
     ~/.alacritty.yml: shell/alacritty/.alacritty.yml
+    ~/.config/kitty/kitty.conf: shell/kitty/kitty.conf
     ~/.tmux.conf: shell/tmux/.tmux.conf
 
 - create:
