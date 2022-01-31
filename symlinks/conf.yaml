@@ -17,6 +17,7 @@
     ~/.config/kitty/kitty.conf: shell/kitty/kitty.conf
     ~/.config/Code/User/settings.json: editors/code/settings.json
     ~/.tmux.conf: shell/tmux/.tmux.conf
+    ~/.gitconfig: git/.gitconfig
 
 - create:
       - ~/.z
