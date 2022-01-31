@@ -12,8 +12,7 @@ Plug 'maximbaz/lightline-ale'
 Plug 'itchyny/lightline.vim'
 
 "" theme
-Plug 'morhetz/gruvbox'
-Plug 'shinchu/lightline-gruvbox.vim'
+Plug 'joshdick/onedark.vim'
 
 "" explorer
 Plug 'scrooloose/nerdtree'
@@ -61,7 +60,7 @@ set nostartofline
 set cursorline
 set encoding=utf-8
 set showmatch
-colorscheme gruvbox
+colorscheme onedark
 set background=dark
 
 " Searching
