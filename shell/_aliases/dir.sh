@@ -7,3 +7,4 @@ alias cat="bat"
 
 # Jumps
 alias ~="cd ~"
+alias code="cd code"
