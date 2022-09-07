@@ -11,5 +11,6 @@
     "git.suggestSmartCommit": false,
     "diffEditor.ignoreTrimWhitespace": false,
     "git.confirmSync": false,
-    "git.autofetch": true
+    "git.autofetch": true,
+    "explorer.confirmDragAndDrop": false
 }
