@@ -10,5 +10,6 @@
     "window.titleBarStyle": "native",
     "git.suggestSmartCommit": false,
     "diffEditor.ignoreTrimWhitespace": false,
-    "git.confirmSync": false
+    "git.confirmSync": false,
+    "git.autofetch": true
 }
