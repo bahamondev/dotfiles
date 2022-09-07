@@ -8,5 +8,6 @@
     "editor.minimap.enabled": false,
     "workbench.layoutControl.enabled": false,
     "window.titleBarStyle": "native",
-    "git.suggestSmartCommit": false
+    "git.suggestSmartCommit": false,
+    "diffEditor.ignoreTrimWhitespace": false
 }
