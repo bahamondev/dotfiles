@@ -7,5 +7,6 @@
     "workbench.editor.centeredLayoutAutoResize": true,
     "editor.minimap.enabled": false,
     "workbench.layoutControl.enabled": false,
-    "window.titleBarStyle": "native"
+    "window.titleBarStyle": "native",
+    "git.suggestSmartCommit": false
 }
