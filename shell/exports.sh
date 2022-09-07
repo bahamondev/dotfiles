@@ -6,6 +6,8 @@ export FZF_DEFAULT_OPTS='
   --reverse
 '
 
+export ZSHZ_DATA="$HOME/.z/data.dat"
+
 export path=(
   "$HOME/bin"
   "$DOTLY_PATH/bin"
