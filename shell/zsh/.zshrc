@@ -20,6 +20,7 @@ source "$ZIM_HOME/init.zsh"
 ZSH_AUTOSUGGEST_USE_ASYNC=true
 ZSH_HIGHLIGHT_MAXLENGTH=300
 
+# Dotfiles management
 source "$DOTFILES_PATH/shell/init.sh"
 
 fpath=("$DOTLY_PATH/shell/zsh/themes" "$DOTLY_PATH/shell/zsh/completions" $fpath)
@@ -29,11 +30,12 @@ autoload -Uz promptinit && promptinit
 source "$DOTFILES_PATH/shell/zsh/key-bindings.zsh"
 source "$DOTLY_PATH/shell/zsh/bindings/reverse_search.zsh"
 
-# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
-[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+# Prompt customization
+[[ ! -f "$HOME/.p10k.zsh" ]] || source "$HOME/.p10k.zsh"
 
-source "$HOME/.privaterc"
-
-#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+# SDK manager
 export SDKMAN_DIR="$HOME/.sdkman"
-[[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
+[[ -d $SDKMAN_DIR ]] && [[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
+
+# Private stuff (NEVER UPLOAD THE FILE TO ANY REPO)
+[[ ! -f "$HOME/.privaterc"  ]] || source "$HOME/.privaterc"
