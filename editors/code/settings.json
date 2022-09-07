@@ -1,12 +1,11 @@
 {
-    "workbench.colorTheme": "Default Dark+",
     "editor.fontFamily": "CaskaydiaCove Nerd Font",
     "editor.fontLigatures": true,
-
-    "window.titleBarStyle": "native",
     "workbench.editor.showTabs": false,
     "window.menuBarVisibility": "hidden",
     "workbench.activityBar.visible": false,
     "workbench.editor.centeredLayoutAutoResize": true,
     "editor.minimap.enabled": false,
+    "workbench.layoutControl.enabled": false,
+    "window.titleBarStyle": "native"
 }
