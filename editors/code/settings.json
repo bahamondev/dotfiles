@@ -9,5 +9,6 @@
     "workbench.layoutControl.enabled": false,
     "window.titleBarStyle": "native",
     "git.suggestSmartCommit": false,
-    "diffEditor.ignoreTrimWhitespace": false
+    "diffEditor.ignoreTrimWhitespace": false,
+    "git.confirmSync": false
 }
