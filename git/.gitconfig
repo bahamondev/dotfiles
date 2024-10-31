@@ -1,0 +1,5 @@
+[commit]
+	gpgsign = true
+[user]
+	email = jose@bahamonde.dev
+	name = Jose Bahamonde Cordeiro
